@@ -1,0 +1,64 @@
+
+/*
+
+SIMPLE THREE COLUMN LAYOUT
+
+*/
+
+div.container {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+div.container > div.left {
+	float: left;
+	width: 32%;
+	color: #FFF;
+	text-align: center;
+	background: #F39C12;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+div.container > div.center {
+	display: inline-block;
+	width: 33%;
+	color: #FFF;
+	text-align: center;
+	background: #F1C40F;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+
+div.container > div.right {
+	float: right;
+	width: 32%;
+	color: #FFF;
+	text-align: center;
+	background: #27AE60;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*
+
+MEDIA QUERIES
+
+*/
+@media only screen and (max-width: 964px) {
+	div.container > div.left {
+		width: 100%;
+		float: none;
+	}
+
+	div.container > div.center {
+		width: 100%;
+		display: inline;
+	}
+
+	div.container > div.right {
+		float: none;
+		width: 100%;
+	}
+}
