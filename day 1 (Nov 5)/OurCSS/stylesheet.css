@@ -13,9 +13,8 @@ div.container {
 div.container > div.left {
 	float: left;
 	width: 32%;
-	color: #FFF;
+	color: #F39C12;
 	text-align: center;
-	background: #F39C12;
 	margin-left: 5px;
 	margin-right: 5px;
 }
@@ -23,9 +22,8 @@ div.container > div.left {
 div.container > div.center {
 	display: inline-block;
 	width: 33%;
-	color: #FFF;
+	color: #F1C40F;
 	text-align: center;
-	background: #F1C40F;
 	margin-left: 5px;
 	margin-right: 5px;
 
@@ -34,9 +32,8 @@ div.container > div.center {
 div.container > div.right {
 	float: right;
 	width: 32%;
-	color: #FFF;
+	color: #27AE60;
 	text-align: center;
-	background: #27AE60;
 	margin-left: 5px;
 	margin-right: 5px;
 }
