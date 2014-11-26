@@ -1,0 +1,13 @@
+ul > li:hover {
+	padding-left: 10px;
+	color: red;
+	cursor: pointer;
+}
+
+ul > li {
+	-webkit-transition: padding-left .5s, color 2s;
+	-moz-transition: padding-left .5s, color 2s;
+	-o-transition: padding-left .5s, color 2s;
+	-ms-transition: padding-left .5s, color 2s;
+	transition: padding-left .5s, color 2s;
+}
